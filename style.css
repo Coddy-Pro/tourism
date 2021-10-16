@@ -101,6 +101,17 @@ main {
     margin-bottom: 1%;
 }
 
+
+a { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
 footer {
     background-image: url(./img/footer.jpg);
     display: flex;
@@ -113,5 +124,4 @@ footer {
 .yozuv {
     color: #fff;
     text-align: center;
-    
 }
