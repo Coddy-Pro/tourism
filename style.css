@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: RobotoR;
+    src: url(Roboto-Light.ttf);
+}
+
+html, body {
+    height: 100%;
+    font-family: RobotoR;
+}
+
+header {
+    height: 100%;
+    background-image: url(img/Header.png);
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 20%;
+}
+
+header p {
+    color: white;
+}
+
+.tourism {
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 21px;
+}
+
+.text-container {
+    width: 40%;
+    margin-top: 15%;
+    margin-left: 15%;
+}
+
+.first-line {
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    opacity: 50%;
+    line-height: 1;
+}
+
+.second-line {
+    text-transform: uppercase;
+    font-size: 64px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.third-line {
+    font-size: 20px;
+}
+main {
+    width: 60%;
+    height: 100%;
+    padding: 12% 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    
+}
+.gallery {
+    width: 100%;
+    margin-right: 0;
+}
+.gallery-text {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.gallery-header {
+    font-size: 300%;
+    letter-spacing: 1.5px;
+}
+.gallery-p {
+    font-size: 120%;
+    padding-right: 5%;
+}
+.img-container {
+    display: flex;
+    width: auto;
+}
+
+.img1 {
+    width: 100%;
+    height: fit-content;
+    justify-content: flex-start;
+}
+.wrapper {
+    margin-left: 1%;
+}
+.img2 {
+    margin-bottom: 1%;
+}
