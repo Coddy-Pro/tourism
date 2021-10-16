@@ -100,3 +100,13 @@ main {
 .img2 {
     margin-bottom: 1%;
 }
+
+a { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
